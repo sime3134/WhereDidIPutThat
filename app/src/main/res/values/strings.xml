@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Where did I put that?</string>
+    <string name="rooms">Rooms</string>
+    <string name="see_all">See all</string>
+    <string name="recently_visited_items">Recently visited items</string>
+    <string name="default_text">Default</string>
+    <string name="scan_qr_code">Scan QR</string>
+    <string name="search">Search</string>
+</resources>
