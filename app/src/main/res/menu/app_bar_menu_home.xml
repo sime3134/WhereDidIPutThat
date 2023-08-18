@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/qr_scanner"
-        android:icon="@drawable/ic_qr_scanner"
-        android:title="@string/scan_qr_code"
-        app:showAsAction="ifRoom"/>
+        android:id="@+id/help"
+        android:icon="@drawable/ic_question_mark"
+        android:title="@string/help"
+        app:showAsAction="never"/>
     <item
         android:id="@+id/search"
         android:icon="@drawable/ic_search"

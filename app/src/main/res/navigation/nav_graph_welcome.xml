@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_welcome"
+    app:startDestination="@id/setupIntroFragment">
+
+    <fragment
+        android:id="@+id/setupIntroFragment"
+        android:name="sime3134.github.io.wheredidiputthat.view.setup.SetupIntroFragment"
+        android:label="SetupIntroFragment"
+        tools:layout="@layout/fragment_intro_setup">
+        <action
+            android:id="@+id/show_add_location_setup"
+            app:destination="@id/setupAddLocationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/setupAddLocationFragment"
+        android:name="sime3134.github.io.wheredidiputthat.view.setup.SetupAddLocationFragment"
+        android:label="SetupAddLocationFragment"
+        tools:layout="@layout/fragment_add_location_setup">
+        <action
+            android:id="@+id/show_add_room_setup"
+            app:destination="@id/setupAddRoomFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/setupAddRoomFragment"
+        android:name="sime3134.github.io.wheredidiputthat.view.setup.SetupAddRoomFragment"
+        android:label="SetupAddRoomFragment"
+        tools:layout="@layout/fragment_add_room_setup">
+        <argument
+            android:name="locationTitle"
+            app:argType="string" />
+    </fragment>
+</navigation>
