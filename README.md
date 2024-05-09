@@ -4,4 +4,4 @@ This android app is designed to help the user remember where they put their belo
 
 I'm releasing this as open source in hope it will help someone. I might add documentation here in the future, if I have the spare time. 
 
-Find me at [https:/simonjern.com](https:/simonjern.com).
+Find me at [https://simonjern.com](https://simonjern.com).
